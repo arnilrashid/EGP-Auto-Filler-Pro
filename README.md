@@ -3,8 +3,12 @@
 A fast, secure Chrome extension that automatically fills **e-PW2B-2** and **e-PW2B-3** Personnel Information forms in the Bangladesh **e-GP LTM** tender system.
 Designed for contractors and bidders who repeatedly submit the same personnel data.
 
----
-[![Watch the video](https://img.youtube.com/vi/B3xNlX6ljxk/0.jpg)](https://www.youtube.com/watch?v=B3xNlX6ljxk)
+## 📺 Video Tutorial
+
+> **EGP Auto Filler Pro – Full Demonstration**  
+> Learn installation, profile setup, and auto-fill usage.
+
+[![EGP Auto Filler Pro Demo](https://img.youtube.com/vi/B3xNlX6ljxk/0.jpg)](https://www.youtube.com/watch?v=B3xNlX6ljxk)
 
 # ## 🚀 Features
 
