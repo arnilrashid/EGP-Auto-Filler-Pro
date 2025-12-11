@@ -1,4 +1,7 @@
-// content.js — table-cell-aware filler (robust; uses td->first input logic)
+console.log("https://github.com/arnilrashid");
+
+
+
 console.log("Tender Filler: table-cell-aware content script loaded");
 
 function setNativeAndFire(el, value) {
@@ -180,3 +183,4 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
     sendResponse({ done: false, error: err && err.message });
   }
 });
+
