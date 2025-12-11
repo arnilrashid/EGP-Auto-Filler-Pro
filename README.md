@@ -4,6 +4,7 @@ A fast, secure Chrome extension that automatically fills **e-PW2B-2** and **e-PW
 Designed for contractors and bidders who repeatedly submit the same personnel data.
 
 ---
+[![Watch the video](https://img.youtube.com/vi/B3xNlX6ljxk/0.jpg)](https://www.youtube.com/watch?v=B3xNlX6ljxk)
 
 # ## 🚀 Features
 
