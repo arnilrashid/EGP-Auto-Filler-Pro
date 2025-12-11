@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "EGP Auto Filler",
+  "version": "1.0.0",
+  "description": "Auto-filler for e-GP forms (e-PW2B-2, e-PW2B-3)",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": [
+    "https://www.eprocure.gov.bd/*",
+    "https://eprocure.gov.bd/*",
+    "http://www.eprocure.gov.bd/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

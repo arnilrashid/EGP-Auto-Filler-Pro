@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <h3>🚀 EGP Auto Filler Pro</h3>
+
+    <!-- Form Type Detector -->
+    <div class="form-type-section">
+      <div id="formTypeIndicator" class="form-type-indicator">
+        <span class="indicator-icon">🔍</span>
+        <span id="formTypeText">Detecting form...</span>
+      </div>
+    </div>
+
+    <!-- Profile Management Section -->
+    <div class="profile-section">
+      <label>📁 Saved Profiles</label>
+      <div class="profile-controls">
+        <select id="profileSelect" class="profile-select">
+          <option value="">-- Select Profile --</option>
+        </select>
+        <button
+          id="deleteProfile"
+          class="btn-delete"
+          title="Delete selected profile"
+        >
+          🗑️
+        </button>
+      </div>
+    </div>
+
+    <!-- Save New Profile Section -->
+    <div class="save-section">
+      <label for="profileName">💾 Save Current as New Profile</label>
+      <div class="save-controls">
+        <input type="text" id="profileName" placeholder="Enter profile name" />
+        <button id="saveProfile" class="btn-save">Save</button>
+      </div>
+    </div>
+
+    <!-- Message Display -->
+    <div id="message" class="message" style="display: none"></div>
+
+    <!-- Template Selector -->
+    <div class="template-section">
+      <label for="templateSelect">📋 Quick Templates</label>
+      <select id="templateSelect" class="template-select">
+        <option value="">-- Choose Template --</option>
+        <option value="personnel">e-PW2B-3</option>
+        <option value="bidder">e-PW2B-2</option>
+        <option value="custom">Custom (edit below)</option>
+      </select>
+    </div>
+
+    <!-- Mapping Editor -->
+    <label for="mapping">✏️ Field Mapping (JSON)</label>
+    <textarea id="mapping" rows="12">{}</textarea>
+
+    <!-- Fill Button -->
+    <button id="fill" class="btn-fill">Fill Form Now</button>
+
+    <small>
+      💡 Auto-detects form type • Data auto-saves<br />
+      © 2025 Md. Mamun Ar Rashid.
+      <span class="alert">Licensed for personal use only</span>
+    </small>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
