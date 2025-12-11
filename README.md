@@ -174,10 +174,3 @@ If this tool helps you submit tenders faster:
 * Report issues or request features
 
 ---
-
-If you want, I can also create:
-
-✅ Proper **repo tags** (SEO-optimized)
-✅ An **SEO-friendly title** for GitHub
-✅ A matching **short description (30 words)**
-Just say: **“give me tags + title + description”**
